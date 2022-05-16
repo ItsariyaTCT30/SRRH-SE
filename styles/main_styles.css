@@ -281,10 +281,91 @@ section
 .card{
 	height:800px
 }
+
 .card:hover{
-	transition: 200ms;
+	transition: 50ms;
 	border: 3px #ff4000 solid;
 }
+.button-submit
+{
+	border-radius: 15px;
+	border: solid 2px rgb(97, 97, 97);
+	width: 186px;
+	height: 65px;
+	background: #fdfdfd;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.button-submit:hover
+{	font-weight: bold;
+	box-shadow: 1px 1px 5px #c6c6c6;
+	border: solid 0px ;
+	background: #169b2c;
+	color: #ffffff;
+}
+
+.button-submit a
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	color: rgb(97, 97, 97);
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	line-height: 61px;
+}
+.button-submit:hover a
+{
+	color: #f8f8f8;
+}
+
+.button-clear
+{
+	border-radius: 15px;
+	border: solid 2px rgb(97, 97, 97);
+	width: 186px;
+	height: 65px;
+	background: #fdfdfd;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.button-clear:hover
+{	font-weight: bold;
+	box-shadow: 1px 1px 5px #c6c6c6;
+	border: solid 0px ;
+	background: #bab9b9;
+	color: #ffffff;
+}
+
+.button-clear a
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	color: rgb(97, 97, 97);
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	line-height: 61px;
+}
+.button-cleart:hover a
+{
+	color: #f8f8f8;
+}
+
+
+
 .button
 {
 	border-radius: 15px;
