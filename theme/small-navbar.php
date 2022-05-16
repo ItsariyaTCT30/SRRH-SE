@@ -78,13 +78,12 @@ $result = $g->single_guest($_SESSION['GUESTID']);
 
           </li>
           <?php }else { ?>
-            <li><a     data-target="#LoginModal" data-toggle="modal"  title="Login Guest"  href="">Login
+            <li><a data-target="#LoginModal" data-toggle="modal"  title="Login Guest"  href="">Login 
              </a>
-             
+             &nbsp;
              </li>
-             
 
-             <li><a href="\SRRH\admin\index.php">admin
+             <li><a href="\SRRH\admin\index.php">Admin 
              </a>
              
              </li>
@@ -123,6 +122,7 @@ $result = $g->single_guest($_SESSION['GUESTID']);
                                  
                                       </div> 
                                       </div>  
+                                      <a href="">register now</a>
                       </div> 
                   </div> 
                 </div>
