@@ -18,7 +18,7 @@ require_once("../includes/initialize.php");
         if ($res==true){
            redirect("index.php");
         }else{
-         echo "Invalid Username and Password! Please contact administrator";
+         echo " Invalid Username and Password! Please contact administrator";
             
         }
     }

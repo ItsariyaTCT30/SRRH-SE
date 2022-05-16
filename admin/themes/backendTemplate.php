@@ -226,8 +226,6 @@ $(document).ready(function() {
 	     <footer>
         <p>&copy; 
         	SRRH
-
-
          </p>
 
         <script>
