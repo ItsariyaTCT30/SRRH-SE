@@ -18,7 +18,7 @@
         if ($res==true){
            redirect(WEB_ROOT."booking/index.php?view=payment");
         }else{
-             message("Invalid Username and Password! Please contact administrator", "error");
+             message(" Invalid Username and Password! Please contact administrator", "error");
              redirect(WEB_ROOT."booking/index.php?view=logininfo");
         }
  

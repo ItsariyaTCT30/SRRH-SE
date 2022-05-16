@@ -10,7 +10,7 @@ require_once("includes/initialize.php");
     //check if the email and password is equal to nothing or null then it will show message box
     if ($uname == '' OR $upass == '') {
 
-	echo "Invalid username and password";
+	echo " Invalid username and password";
     }else{
     	 $guest = new Guest();
         $res = $guest::guest_login($uname,$h_upass);
@@ -18,7 +18,7 @@ require_once("includes/initialize.php");
         if ($res==true){
            redirect("index.php");
         }else{
-         echo "Invalid Username and Password! Please contact administrator";
+         echo " Invalid Username and Password! Please contact administrator";
             
         }
     }
