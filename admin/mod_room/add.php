@@ -65,7 +65,7 @@
 
               <div class="col-md-8">
                 <input class="form-control input-sm" id="NUMPERSON" name="NUMPERSON" placeholder=
-                    "Number of Person" type="text" value="1" onkeyup="javascript:checkNumber(this);">
+                    "Number of Person" type="text" value="1" pattern="[0-9]" title="Num Only" onkeyup="javascript:checkNumber(this);">
               </div>
             </div>
           </div>
@@ -78,12 +78,12 @@
 
               <div class="col-md-8"> 
                 <input class="form-control input-sm" id="PRICE" name="PRICE" placeholder=
-									  "Price" type="text" value="" onkeyup="javascript:checkNumber(this);">
+									  "Price" type="text" value="" title="Num Only" onkeyup="javascript:checkNumber(this);">
               </div>
             </div>
           </div>
 
-           <  <div class="form-group">
+           <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
               "ROOMNUM">No. of Rooms:</label>
@@ -102,7 +102,7 @@
               "image">Upload Image:</label>
 
               <div class="col-md-8">
-              <input type="file" name="image" value="" id="image">
+              <input type="file" name="image" value="" id="image" accept="image/*" multiple>
               </div>
             </div>
           </div>
