@@ -134,29 +134,29 @@ $_SESSION['GUESTID'] =   $lastguest;
 
  
  
- <div id="accom-title"  > 
+ <div id="accom-title" style="padding-top: 50px;padding-bottom: 10px;" > 
     <div  class="pagetitle">   
-            <h1 >Billing Details 
+            <h1 style="color:orange;" > Billing Details 
                  
             </h1> 
         </div> 
   </div>
  
-<div id="bread">
-   <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a> </li> 
-      <li><a href="<?php echo WEB_ROOT ;?>booking/">Booking Cart</a></li>  
-       <li class="active">Booking Details</li>
+<div id="bread" >
+   <ol style="background-color:orange;" class="breadcrumb">
+      <li><a style="color:white;" href="<?php echo WEB_ROOT ;?>index.php">&nbsp;&nbsp; Home  \</a> </li>
+      <li><a style="color:white;" href="<?php echo WEB_ROOT ;?>booking/"> &nbsp;&nbsp; Booking Cart  \</a></li>  
+       <li style="color:white;" class="active">&nbsp;&nbsp; Booking Details</li>
    </ol> 
 </div> 
 
 
-<form action="index.php?view=payment" method="post"  name="personal" >
+<form action="index.php?view=payment" method="post"  name="personal"  style="color:black;" >
 
  
-<div class="col-md-12" style="background-color:white;">
+<div class="col-md-12" style="background-color:white;color:black;">
 
-  <div class="row">
+  <div class="row" style="color:black;">
     <div class="col-md-8 col-sm-4">
        <div class="col-md-12">
           <label>Name:</label>
@@ -190,9 +190,9 @@ $_SESSION['GUESTID'] =   $lastguest;
 
 
 
-<div class="row">
-  <div class="table-responsive">
-    <table class="table">
+<div class="row" >
+  <div class="table-responsive" >
+    <table class="table" style="color:black;" >
       <thead>
         <tr>
           <td>Room</td>
