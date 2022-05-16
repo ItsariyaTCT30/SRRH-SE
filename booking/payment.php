@@ -246,6 +246,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
     </div>
     <br>
     <div class="">
+        
        <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
     </div>
   </div>   
