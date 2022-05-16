@@ -911,8 +911,7 @@ section
 .rooms
 {
 	background: #ffffff;
-	padding-top: 100px;
-	padding-bottom: 110px;
+	width: 100%;
 }
 .card-columns
 {

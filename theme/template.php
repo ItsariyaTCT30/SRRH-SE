@@ -116,7 +116,7 @@ if (isset($_SESSION['activity'])){
 
   <!-- Logo Overlay -->
 
-  <div class="logo_overlay" style="margin-top: 40px;">
+  <div class="logo_overlay" style="margin-top: 40px;opacity:80%;">
     <div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
       <div class="logo"><a href="#"><img src="<?php echo WEB_ROOT;?>images/logo.png" alt=""></a></div>
     </div>
@@ -124,7 +124,7 @@ if (isset($_SESSION['activity'])){
 
   <!-- Menu Overlay -->
 
-  <div class="menu_overlay" style="margin-top: 40px;">
+  <div class="menu_overlay" style="margin-top: 40px;opacity:80%;">
     <div class="menu_overlay_content d-flex flex-row align-items-center justify-content-center">
       
       <!-- Hamburger Button -->
@@ -177,11 +177,11 @@ if (isset($_SESSION['activity'])){
 
   <!-- Booking -->
 
-  <div class="booking">
-    <div class="container">
+  <div class="booking" >
+   
       <div class="row">
         <div class="col">
-        <div class="booking_container d-flex flex-row align-items-end justify-content-start"> 
+        <div class="booking_container d-flex flex-row align-items-end justify-content-start" > 
             <form action="<?php echo WEB_ROOT;?>index.php?p=booking" method="POST" class="booking_form" autocomplete="off">
               <div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-start flex-wrap">
                 <div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
@@ -200,7 +200,7 @@ if (isset($_SESSION['activity'])){
                             ?>
                     </select>
                   </div>
-                  <div class="custom-select">
+                  <div class="custom-select" >
                           <?php
                          $accomodation = New Accomodation();
                          $cur = $accomodation->listOfaccomodation(); 
@@ -218,11 +218,11 @@ if (isset($_SESSION['activity'])){
             </form>
           </div>
         </div>
-      </div>
+      
     </div>
   </div>
-<div class="rooms" bg>
-  <div class="container">
+<div class="rooms" style="background:#FFFFFF;" >
+  <div class="container" >
     <?php 
      check_message();
      require_once $content;  
@@ -236,45 +236,42 @@ if (isset($_SESSION['activity'])){
  
 
  
-  <footer class="footer">
+  <footer class="footer" style="background:#FFFFFF;">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/footer.jpg" data-speed="0.8"></div>
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="footer_logo text-center">
-            <a href="#"><img src="images/logo.png" alt=""></a>
+            <a href="#"><img src="images/logo.png" alt="" ></a>
           </div>
-          <div class="footer_content" style="background-color:#FFFFFF;">
+          <div class="footer_content" style="background-color:#FFFFFF; color:#111111;">
             <div class="row">
               <div class="col-lg-4 footer_col">
                 <div class="footer_info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
                   <div class="text-center">
-                    <div>Phone:</div>
-                    <div>+66 61548 6542</div>
+                    <div style="color:darkblue;">Phone:</div>
+                    <div style="color:darkblue;">+66 80 000 0000</div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 footer_col">
                 <div class="footer_info d-flex flex-column align-items-center justify-content-start">
                   <div class="text-center">
-                    <div>Address:</div>
-                    <div>Main Str, no 23, Thailand</div>
+                    <div style="color:darkblue;">Address:</div>
+                    <div style="color:darkblue;">Main Str, no 23, Thailand</div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 footer_col">
                 <div class="footer_info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
                   <div class="text-center">
-                    <div>Mail:</div>
-                    <div>SRRH.Hotel@Hotmail.com</div>
+                    <div style="color:darkblue; ">Mail :</div>
+                    <div style="color:darkblue;">SRRH.Hotel@Hotmail.com</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="footer_bar text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
         </div>
       </div>
     </div>

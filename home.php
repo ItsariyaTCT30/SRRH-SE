@@ -283,8 +283,8 @@
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>Clients</div>
-            <h1>Review</h1>
+            <div>ลูกค้า</div>
+            <h1>รีวิว</h1>
           </div>
         </div>
       </div>
@@ -298,33 +298,33 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Perfect place to come for a relaxing break away! The food was incredible… breakfast was like nothing I’ve ever had at an hotel before and so many options! Friendly staff, happy hour 3-7pm and a beautiful albeit secluded location! I will definitely come back!.</p>
+                  <p>ดีมากเลยครับชอบมาก ที่พักสะอาด สิ่งอำนวยความสะดวกครบครัน</p>
                 </div>
                 <div class="testimonial_author text-center">
-                  <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Beam,</a><span> Client</span></div>
+                  <div class="testimonial_author_image"><img src="images/au.jpg" alt=""></div>
+                  <div class="testimonial_author_name"><a href="#">อู๋ครับ,</a><span> ลูกค้า</span></div>
                 </div>
               </div>
 
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Really beautiful place away from everything, a real escaping from the buzz of the everyday life. The pool is amazing with an incredible view on the sea and a different and magical sunset each night. Rooms are big and clean, really confy with more than you can ask. People working there are really really kind, and the food is delicious.</p>
+                  <p>เอาไปเลย! 10 คะแนนเต็ม! สวยมาก บรรยากาศดีมาก ยิ่งมีเบียร์เย็นๆนี่ดีมากเลยครับ</p>
                 </div>
                 <div class="testimonial_author text-center">
-                  <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Time,</a><span> Client</span></div>
+                  <div class="testimonial_author_image"><img src="images/time.jpg" alt=""></div>
+                  <div class="testimonial_author_name"><a href="#">บังทาม,</a><span> ลูกค้า</span></div>
                 </div>
               </div>
 
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Really nice place located at a very quiet bay. Perfect to relax and chill. The place has many bungalows and a small pool with an area to sunbath. They also have a restaurants with a big variety of food and drinks. My bungalow was very nice, not too big but perfect for one person. It was clean and the bed was soft and comfy. The room has a tiny fridge, TV and towels provided. I only visited the place when it wasn't busy, I can imagine it might be less quiet if the place is more booked out, as the bungalows are pretty close to each other. All in all I was happy!</p>
+                  <p>โสดค่า มาพักที่นี่แล้ว ไม่ไหวจริงๆ มันดีย์มากกก! คำเตือนอย่ามากคนเดียวถ้าไม่มีแฟนนิ</p>
                 </div>
                 <div class="testimonial_author text-center">
-                  <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Ball,</a><span> Client</span></div>
+                  <div class="testimonial_author_image"><img src="images/fah.jpg" alt=""></div>
+                  <div class="testimonial_author_name"><a href="#">สาวนาป่า,</a><span> ลูกค้า</span></div>
                 </div>
               </div>
 
