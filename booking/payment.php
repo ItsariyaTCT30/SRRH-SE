@@ -174,7 +174,7 @@ $_SESSION['GUESTID'] =   $lastguest;
 
 if (!isset($_SESSION['timeend'])){ 
     unset($_SESSION['timeend']);
-    $endtime = time() + 10800; 
+    $endtime = time() + 10800;  // สำหรับปรับเวลา
     $_SESSION['timeend'] = $endtime; 
 } 
 
@@ -199,14 +199,9 @@ function mycountdown(){
             document.getElementById('timer').innerHTML = pastTime; 
       } 
 if(pastTime < 1) { 
-//  <?php
-//    unset($_SESSION['pay']);
-//    unset($_SESSION['dragonhouse_cart']);
-//    message("The cart is empty.","success");
-//   redirect(WEB_ROOT."booking/");
-// ?>
 
-            window.location = ""  //หมดเวลาแล้วให้ไปไหน
+
+            window.location = "clear_cart.php" 
       } 
 } 
     if(pastTime >0){

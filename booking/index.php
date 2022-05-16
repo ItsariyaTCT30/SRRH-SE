@@ -4,6 +4,7 @@ $view = (isset($_GET['view']) && $_GET['view'] != '') ? $_GET['view'] : '';
 $account = '../guest/update.php'; 
 $small_nav = '../theme/small-navbar.php';
 unset($_SESSION['timeend']);
+
 switch ($view) {
 	case 'booking' :
 	    $title="Booking";
