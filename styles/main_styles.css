@@ -339,6 +339,7 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .button-clear:hover
 {	font-weight: bold;
 	box-shadow: 1px 1px 5px #c6c6c6;
