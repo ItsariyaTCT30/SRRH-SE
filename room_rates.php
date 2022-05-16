@@ -111,78 +111,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                     //$availRoom = $result->ROOMNUM;
 
 
-              if($resNum==0){
-
-             if($status=='Confirmed'){
-                $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Reserve!</strong></div>';
-                 $img_title = ' 
-
-                           <figcaption class="img-title-active">
-                                <h5>Reserve!</h5>    
-                            </figcaption>
-
-
-                    ';
-              }elseif($status=='Checkedin'){
-                $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Book!</strong></div>';
-                 $img_title = ' 
-
-                           <figcaption class="img-title-active">
-                                <h5>Book!</h5>    
-                            </figcaption>
-
-
-                    ';
-              }else{
-                 $btn =  '
-                 <div class="form-group">
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
-                                                   
-                           </div>
-                        </div>
-                      </div>';
-                    $img_title = ' 
-
-                           <figcaption class="img-title">
-                                <h5>'.$result->ROOM . ' <br/> '.$result->ROOMDESC.'  <br/>
-                                ' . $result->ACCOMODATION .' <br/> 
-                                '.$result->ACCOMDESC . '<br/>  
-                                Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price:'.$result->PRICE.'</h5>    
-                            </figcaption>
-
-
-                    ';
-                   
-              }
-                   
-              }else{
-                $btn =  '
-                 <div class="form-group">
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="button rooms_button" id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
-                                                   
-                           </div>
-                        </div>
-                      </div>';
-                    $img_title = ' 
-
-                           <figcaption class="img-title">
-                                <h5>'.$result->ROOM . ' <br/> '.$result->ROOMDESC.'  <br/>
-                                ' . $result->ACCOMODATION .' <br/> 
-                                '.$result->ACCOMDESC . '<br/>  
-                                Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price:'.$result->PRICE.'</h5>    
-                            </figcaption>
-
-
-                    ';
-                   
-
-              }      
+                
 // ============================================================================================================================
 
  
@@ -191,7 +120,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                  <input type="hidden" name="ROOMPRICE" value="<?php echo $result->PRICE ;?>">
                   <input type="hidden" name="ROOMID" value="<?php echo $result->ROOMID ;?>">
 
-                      <div class="card">
+                      <div class="card"  style="height:650px;">
                         <img style="height:300px;"  class="card-img-top"  src="<?php echo WEB_ROOT .'admin/mod_room/'.$result->ROOMIMAGE; ?>" alt="Room image description">
                         <div class="card-body">
                           <div class="rooms_title"><h2><?php echo $result->ROOM ;?> <?php echo $result->ACCOMODATION ;?></h2></div>
@@ -211,7 +140,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                             </ul>
                           </div>
                           <div class="rooms_price"><?php echo   $result->PRICE ;?>/<span>Night</span></div>
-                           <?php echo $btn ; ?> 
+                           
                         </div>
                       </div>
 

@@ -9,22 +9,22 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
 
  ?> 
  <div style="background-color:#fff;padding-top: 50px;">
- 
-           <h1 style="display: inline-block;color:#3150C2;">Login</h1>
-              <a style="display: inline-block;" href="personalinfo.php" data-title=" Register New Guest" data-toggle="lightbox">  Register</a> 
-       
+ <div style="background:#F78C14;padding-left:5px;padding-bottom:5px">
+           <h1 style="display: inline-block;color:white"> Login</h1>
+              <a style="display: inline-block;color:#fff" href="personalinfo.php" data-title=" Register New Guest" data-toggle="lightbox">  Register</a> 
+              </div>
                       <form action="<?php echo  WEB_ROOT."login.php" ?>" method="post">
                         <div class="form-group">
                             <div class="" style="margin-top: 10px;"> 
                               <label class="control-label" for=
                               "Username">Username:</label> 
-                                    <input   id="username" name="username" placeholder="Username" type="text" class="form-control input"  style="width: 100%">  
+                                    <input style="border-radius: 0px 50px 50px 0px;"  id="username" name="username" placeholder="Username" type="text" class="form-control input"  style="width: 100%">  
                             </div> 
            
                             <div class="" style="margin-top: 10px;">
                               <label class="control-label" for= 
                               "pass">Password:</label> 
-                               <input name="pass" id="pass" placeholder="Password" type="password" class="form-control input " style="width: 100%"> 
+                               <input name="pass" style="border-radius: 0px 50px 50px 0px;"  id="pass" placeholder="Password" type="password" class="form-control input " style="width: 100%"> 
                             </div> 
                         </div>  
                         

@@ -176,7 +176,7 @@ redirect('index.php?view=payment');
 			              "password">PASSWORD :</label>
 
 			              <div class="col-md-12">
-			                <input name="pass" type="password" class="form-control input-sm" id="password" minmaxlength="8" maxlength="16" pattren="[A-Za-z]{6,18}" title="Password will be Number lenght 8 - 16 charector"/>
+			                <input name="pass" type="password" class="form-control input-sm" id="password" pattren="[A-Za-z]{6,18}" title="Password will be Number lenght 8 - 16 charector"/>
 			              </div>
 			            </div>
 			          </div>

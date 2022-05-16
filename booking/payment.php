@@ -163,19 +163,74 @@ $_SESSION['GUESTID'] =   $lastguest;
 
  
  
+<<<<<<< HEAD
  <div id="accom-title"  > 
-    <div  class="pagetitle">   
+   
+<h4 class="text-right">คุณมีเวลา3ชั่วโมงในการจ่ายก่อนก่อนระบบจะทำการยกเลิก Order</h4>
+    <div  class="pagetitle d-flex justify-content-between">   
             <h1 >Billing Details 
+=======
+ <div id="accom-title" style="padding-top: 50px;padding-bottom: 10px;" > 
+    <div  class="pagetitle">   
+            <h1 style="color:orange;" > Billing Details 
+>>>>>>> 3fe1bb503c3403a710dab9b78472620c0a5ff853
                  
             </h1> 
+            <?php 
+
+if (!isset($_SESSION['timeend'])){ 
+    unset($_SESSION['timeend']);
+    $endtime = time() + 5; 
+    $_SESSION['timeend'] = $endtime; 
+} 
+
+($_SESSION['timeend'] - time()) < 0 ? $EndTime = 0 :  $EndTime = $_SESSION['timeend'] - time();
+
+if($EndTime <= 0) { 
+    unset($_SESSION['timeend']);
+//session_destroy();    
+} 
+
+?> 
+<h1 id="timer" style="color:red;" class="text-right"><?php echo $EndTime ?></h1> 
+        <!-- Display the countdown timer in an element -->
         </div> 
   </div>
+<script type="text/javascript"> 
+var pastTime = <?php echo $EndTime;?>; 
+
+function mycountdown(){ 
+      if(pastTime > 0) { 
+            pastTime -= 1; 
+            document.getElementById('timer').innerHTML = pastTime; 
+      } 
+if(pastTime < 1) { 
+//  <?php
+//    unset($_SESSION['pay']);
+//    unset($_SESSION['dragonhouse_cart']);
+//    message("The cart is empty.","success");
+//   redirect(WEB_ROOT."booking/");
+// ?>
+
+            window.location = ""  //หมดเวลาแล้วให้ไปไหน
+      } 
+} 
+    if(pastTime >0){
+        setInterval(mycountdown,1000); 
+    }
+</script>
+
+            <!-- <h1 class="text-right" id=demo>Times</h1>        -->
+             <!-- <input type="hidden" id="date" value="
+             
+             "> -->
+    
  
-<div id="bread">
-   <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a> </li> 
-      <li><a href="<?php echo WEB_ROOT ;?>booking/">Booking Cart</a></li>  
-       <li class="active">Booking Details</li>
+<div id="bread" >
+   <ol style="background-color:orange;" class="breadcrumb">
+      <li><a style="color:white;" href="<?php echo WEB_ROOT ;?>index.php">&nbsp;&nbsp; Home  \</a> </li>
+      <li><a style="color:white;" href="<?php echo WEB_ROOT ;?>booking/"> &nbsp;&nbsp; Booking Cart  \</a></li>  
+       <li style="color:white;" class="active">&nbsp;&nbsp; Booking Details</li>
    </ol> 
 </div> 
 
@@ -184,9 +239,9 @@ $_SESSION['GUESTID'] =   $lastguest;
 <!-- <form action="test.php" method="post"  name="personal" enctype="multipart/form-data"> -->
 
  
-<div class="col-md-12" style="background-color:white;">
+<div class="col-md-12" style="background-color:white;color:black;">
 
-  <div class="row">
+  <div class="row" style="color:black;">
     <div class="col-md-8 col-sm-4">
        <div class="col-md-12">
           <label>Name:</label>
@@ -220,9 +275,9 @@ $_SESSION['GUESTID'] =   $lastguest;
 
 
 
-<div class="row">
-  <div class="table-responsive">
-    <table class="table">
+<div class="row" >
+  <div class="table-responsive" >
+    <table class="table" style="color:black;" >
       <thead>
         <tr>
           <td>Room</td>

@@ -73,8 +73,8 @@ if (isset($_SESSION['activity'])){
         <ul class="d-flex flex-row align-items-center justify-content-start">
   
 
-          <li><a href="https://www.facebook.com/naytimeni"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.youtube.com/watch?v=rj3ZI53fuxc"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/naytimeni"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/watch?v=rj3ZI53fuxc"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         </ul>
       </div>
 
@@ -139,24 +139,13 @@ if (isset($_SESSION['activity'])){
       <!-- Menu Navigation -->
       <nav class="menu_nav text-center">
         <ul>
-          <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
+          <li style="margin-top: 15px ;"><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
+          <li style="margin-top: 15px ;"><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
+          <li style="margin-top: 15px ;"><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
+          <li style="margin-top: 15px ;"><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="button menu_button"><a href="#">book now</a></div>
-
-      <!-- Menu Social -->
-      <div class="social menu_social">
-        <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
+  
 
     </div>
   </div>
