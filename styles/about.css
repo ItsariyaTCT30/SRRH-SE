@@ -603,7 +603,7 @@ section
 	transition: all 400ms ease;
 }
 .menu_overlay.scrolled
-{
+{	
 	right: 0;
 }
 .menu_overlay_content

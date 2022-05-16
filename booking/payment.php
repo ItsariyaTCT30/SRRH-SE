@@ -123,10 +123,13 @@ $_SESSION['GUESTID'] =   $lastguest;
 
             <?php
             
-    redirect( WEB_ROOT."index.php");
+    redirect( WEB_ROOT."booking/test2.php");
 
 
 }
+
+
+
 ?>
 
  

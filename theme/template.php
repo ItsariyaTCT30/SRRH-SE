@@ -116,15 +116,15 @@ if (isset($_SESSION['activity'])){
 
   <!-- Logo Overlay -->
 
-  <div class="logo_overlay">
+  <div class="logo_overlay" style="margin-top: 40px;">
     <div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
-      <div class="logo"><a href="#"><img src="<?php echo WEB_ROOT;?>images/logo_3.png" alt=""></a></div>
+      <div class="logo"><a href="#"><img src="<?php echo WEB_ROOT;?>images/logo.png" alt=""></a></div>
     </div>
   </div>
 
   <!-- Menu Overlay -->
 
-  <div class="menu_overlay">
+  <div class="menu_overlay" style="margin-top: 40px;">
     <div class="menu_overlay_content d-flex flex-row align-items-center justify-content-center">
       
       <!-- Hamburger Button -->

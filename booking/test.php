@@ -1,10 +1,10 @@
-<!-- Display the countdown timer in an element -->
+<!-- Display the countdown timer in an element
 <p id="demo"></p>
 <input type="text" id="datetimeminute" value="
 <?php $date =  date_create('Y-m-d h:i:s');
 // $date = date_create("2013-03-15");
 // echo date_format(date('m d,Y H:i:s'), "m d,Y H:i:s");
-echo date('m d,Y H:i:s');
+echo date('Y-m-d h:i:s');
 ?>">
 
 <?php
@@ -42,4 +42,4 @@ echo $time; //11:09
             document.getElementById("demo").innerHTML = "EXPIRED";
         }
     }, 1000);
-</script>
+</script> -->

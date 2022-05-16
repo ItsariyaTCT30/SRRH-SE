@@ -112,7 +112,7 @@ redirect('index.php?view=payment');
 			              "phone">PHONE :</label>
 
 			              <div class="col-md-12">
-			                <input name="phone" length="10" type="text" class="form-control input-sm" id="phone" pattern="((0)(\d{2}\-?\d{3}\-?\d{4}))" title="Please enter your correct phone" />
+			                <input name="phone" length="10" type="text" class="form-control input-sm" id="phone" pattern="[0-9]{10}" title="Please enter your correct phone" />
 			              </div>
 			            </div>
 			           </div>
@@ -176,7 +176,7 @@ redirect('index.php?view=payment');
 			              "password">PASSWORD :</label>
 
 			              <div class="col-md-12">
-			                <input name="pass" type="password" class="form-control input-sm" id="password" pattern="[0-9],{8,16}" title="Password will be Number lenght 8 - 16 charector"/>
+			                <input name="pass" type="password" class="form-control input-sm" id="password" minmaxlength="8" maxlength="16" pattren="[A-Za-z]{6,18}" title="Password will be Number lenght 8 - 16 charector"/>
 			              </div>
 			            </div>
 			          </div>
@@ -188,7 +188,7 @@ redirect('index.php?view=payment');
 			              "zip">ZIP CODE :</label>
 
 			              <div class="col-md-12"> 
-			                <input name="zip" type="text" length="5" class="form-control input-sm" id="zip" pattern="[0-9],{5}" title="please enter your correct zip code"/>
+			                <input name="zip" type="text" length="5" class="form-control input-sm" id="zip" pattern="[0-9]{5}" title="please enter your correct zip code"/>
 			              </div>
 			            </div>
 			          </div>
