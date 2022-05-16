@@ -30,6 +30,8 @@ function createRandomPassword() {
 
 }
 
+
+
  $confirmation = createRandomPassword();
 $_SESSION['confirmation'] = $confirmation;
  
@@ -37,13 +39,39 @@ $_SESSION['confirmation'] = $confirmation;
 
 if(isset($_POST['btnsubmitbooking'])){
   // $message = $_POST['message'];
- 
+  $file_name ="";
+  if(isset($_FILES['image'])){
+  $file_name = $_FILES['image']['name'];
+  $file_size =$_FILES['image']['size'];
+  $file_tmp =$_FILES['image']['tmp_name'];
+  $file_type=$_FILES['image']['type'];
+  $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
+  
+  $extensions= array("jpeg","jpg","png");
+  
+  if(in_array($file_ext,$extensions)=== false){
+     $errors[]="extension not allowed, please choose a JPEG or PNG file.";
+  }
+  
+  if($file_size > 2097152){
+     $errors[]='File size must be excately 2 MB';
+  }
+  
+  if(empty($errors)==true){
+     move_uploaded_file($file_tmp,"uploads/".$file_name);
+    //  echo "Success";
+  }else{
+     print_r($errors);
+  }
 
+  
 if(!isset($_SESSION['GUESTID'])){
 
 $sql = "SELECT * FROM `tblauto` WHERE `autoid`=1";
 $mydb->setQuery($sql);
 $res = $mydb->loadSingleResult();
+
+
 
 
 $guest = New Guest();
@@ -88,6 +116,7 @@ $_SESSION['GUESTID'] =   $lastguest;
             $reservation->GUESTID           = $_SESSION['GUESTID']; 
             $reservation->PRORPOSE          = 'Travel';
             $reservation->STATUS            = 'Pending';
+            $reservation->SLIP            = $file_name;
             $reservation->create(); 
 
             
@@ -96,8 +125,8 @@ $_SESSION['GUESTID'] =   $lastguest;
 
            $item = count($_SESSION['dragonhouse_cart']);
 
-      $sql = "INSERT INTO `tblpayment` (`TRANSDATE`,`CONFIRMATIONCODE`,`PQTY`, `GUESTID`, `SPRICE`,`MSGVIEW`,`STATUS`)
-       VALUES ('" .date('Y-m-d h:i:s')."','" . $_SESSION['confirmation'] ."',".$item."," . $_SESSION['GUESTID'] . ",".$tot.",0,'Pending')" ;
+      $sql = "INSERT INTO `tblpayment` (`TRANSDATE`,`CONFIRMATIONCODE`,`PQTY`, `GUESTID`, `SPRICE`,`MSGVIEW`,`STATUS`,`SLIP`)
+       VALUES ('" .date('Y-m-d h:i:s')."','" . $_SESSION['confirmation'] ."',".$item."," . $_SESSION['GUESTID'] . ",".$tot.",0,'Pending', '" . $file_name ."' )" ;
       $mydb->setQuery($sql);
       $mydb->executeQuery(); 
 
@@ -123,8 +152,8 @@ $_SESSION['GUESTID'] =   $lastguest;
 
             <?php
             
-    redirect( WEB_ROOT."booking/test2.php");
-
+    redirect( WEB_ROOT."booking/");
+  }
 
 }
 
@@ -151,7 +180,8 @@ $_SESSION['GUESTID'] =   $lastguest;
 </div> 
 
 
-<form action="index.php?view=payment" method="post"  name="personal" >
+<form action="index.php?view=payment" method="post"  name="personal"  enctype="multipart/form-data">
+<!-- <form action="test.php" method="post"  name="personal" enctype="multipart/form-data"> -->
 
  
 <div class="col-md-12" style="background-color:white;">
@@ -247,6 +277,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
     <div class="right"> 
       <h3 style="text-align: right;">Total: &dollar; <?php echo   $_SESSION['pay'] ;?></h3>
     </div>
+    <input type="file" name="image" id=""  required>
     <br>
     <div class="">
         
