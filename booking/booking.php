@@ -21,7 +21,7 @@ if(isset($_GET['id'])){
  
   <div id="accom-title"  > 
     <div  class="pagetitle">   
-            <h1  >Your Booking Cart 
+            <h1  >Your Booki
                  
             </h1> 
      </div> 
