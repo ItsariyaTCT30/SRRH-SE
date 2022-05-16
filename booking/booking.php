@@ -19,7 +19,7 @@ if(isset($_GET['id'])){
  
 ?>
  
-  <div id="accom-title"  > 
+  <div id="accom-title"  style="padding-top:50px ;"> 
     <div  class="pagetitle">   
             <h1  >Your Booking Cart
                  
@@ -27,10 +27,10 @@ if(isset($_GET['id'])){
      </div> 
   </div>
  
-          <table class="table" id="table">
+          <table class="table" id="table" style="margin-top:30px ;">
 
              <thead>
-              <tr  bgcolor="#FFFFCC">
+              <tr style="background:#F6A01B;color:#FFFFFF">
               <!-- <th width="10">#</th> -->
               <th align="center" width="120">Room</th>
               <th align="center" width="120">Check In</th>
@@ -112,15 +112,15 @@ if(isset($_GET['id'])){
              <?php
              if (isset($_SESSION['dragonhouse_cart'])){
               ?> 
-                 <button type="submit" class="button "name="clear">Clear Cart</button> 
+                 <button type="submit" class="button-clear "name="clear">Clear Cart</button> 
              <?php
              
               if (isset($_SESSION['GUESTID'])){
                 ?>
-                <div  class="button " ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=payment" name="continue">Continue Booking</a></div>
+                <div  class="button-submit" style="margin-left:15px;"><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=payment" name="continue">Continue Booking</a></div>
                <?php 
               }else{ ?>
-                 <div  class="button " ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=logininfo"  name="continue">Continue Booking</a></div>
+                 <div  class="button-submit" style="margin-left:15px;" ><a href="<?php echo WEB_ROOT; ?>booking/index.php?view=logininfo"  name="continue">Continue Booking</a></div>
              <?php
               }
             }
