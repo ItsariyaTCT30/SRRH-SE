@@ -1,11 +1,7 @@
 <?php
-require_once("../includes/initialize.php");
-
- 
-    
+require_once("../includes/initialize.php");    
     $uname = trim($_POST['username']);
     $upass = trim($_POST['password']);
-    
     $h_upass = sha1($upass);
     //check if the email and password is equal to nothing or null then it will show message box
     if ($uname == '' OR $upass == '') {
@@ -22,8 +18,4 @@ require_once("../includes/initialize.php");
             
         }
     }
-
-
-
-
 ?>

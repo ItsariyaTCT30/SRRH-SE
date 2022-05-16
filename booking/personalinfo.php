@@ -121,7 +121,6 @@ redirect('index.php?view=payment');
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
 			              "nationality">NATIONALITY :</label>
-
 			              <div class="col-md-12">
 			                <input name="nationality" type="country" class="form-control input-sm" id="nationality" />
 			              </div>
@@ -177,7 +176,7 @@ redirect('index.php?view=payment');
 			              "password">PASSWORD :</label>
 
 			              <div class="col-md-12">
-			                <input name="pass" type="password" class="form-control input-sm" id="password" />
+			                <input name="pass" type="password" class="form-control input-sm" id="password" pattern="[0-9],{8,16}" title="Password will be Number lenght 8 - 16 charector"/>
 			              </div>
 			            </div>
 			          </div>
@@ -189,7 +188,7 @@ redirect('index.php?view=payment');
 			              "zip">ZIP CODE :</label>
 
 			              <div class="col-md-12"> 
-			                <input name="zip" type="text" length="5" class="form-control input-sm" id="zip" />
+			                <input name="zip" type="text" length="5" class="form-control input-sm" id="zip" pattern="[0-9],{5}" title="please enter your correct zip code"/>
 			              </div>
 			            </div>
 			          </div>

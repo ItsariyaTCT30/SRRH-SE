@@ -29,7 +29,7 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
                             </div> 
                         </div>  
                         
-                        <button type="submit" name="gsubmit" class="button">Sign In</button> 
+                        <button type="submit" name="gsubmit" class="btn button">Sign In</button> 
                         </form>   
                    
  

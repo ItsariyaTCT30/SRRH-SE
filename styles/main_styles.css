@@ -284,7 +284,6 @@ section
 	height: 65px;
 	background: #ff9000;
 	text-align: center;
-	border: solid 2px #ff9000;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -293,7 +292,9 @@ section
 }
 .button:hover
 {
-	background: transparent;
+	border: solid 0px ;
+	background: #ffffff;
+	color: #ff9000;
 }
 .button a
 {
@@ -1006,7 +1007,7 @@ section
 	padding-left: 130px;
 	padding-bottom: 110px;
 	padding-right: 130px;
-	background: #f4f5fa;w
+	background: #f4f5fa;
 }
 .rooms_right_content .section_title > div
 {
