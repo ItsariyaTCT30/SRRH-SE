@@ -174,7 +174,7 @@ $_SESSION['GUESTID'] =   $lastguest;
 
 if (!isset($_SESSION['timeend'])){ 
     unset($_SESSION['timeend']);
-    $endtime = time() + 5; 
+    $endtime = time() + 10800; 
     $_SESSION['timeend'] = $endtime; 
 } 
 
@@ -324,7 +324,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
  
 
     <div class="right"> 
-      <h3 style="text-align: right;">Total: &dollar; <?php echo   $_SESSION['pay'] ;?></h3>
+      <h3 style="text-align: right;">Total: &dollar; <?php echo $_SESSION['pay'] ;?></h3>
     </div>
     <input type="file" name="image" id=""  required>
     <br>
