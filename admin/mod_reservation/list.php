@@ -1,7 +1,9 @@
 <?php
+date_default_timezone_set("Asia/bangkok");
 		check_message();
 			
 		?>
+		
 <div class="container">
 <!-- <div class="panel panel-primary"> -->
 			<div class="panel-body">
