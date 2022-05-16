@@ -187,12 +187,12 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
  
                 ?>
-                 <form method="POST" action="index.php?p=accomodation">
+                 <form method="POST" action="index.php?p=accomodation" style="padding-top:100px ;">
                  <input type="hidden" name="ROOMPRICE" value="<?php echo $result->PRICE ;?>">
                   <input type="hidden" name="ROOMID" value="<?php echo $result->ROOMID ;?>">
 
                       <div class="card">
-                        <img class="card-img-top"  src="<?php echo WEB_ROOT .'admin/mod_room/'.$result->ROOMIMAGE; ?>" alt="Room image description">
+                        <img style="height:300px;"  class="card-img-top"  src="<?php echo WEB_ROOT .'admin/mod_room/'.$result->ROOMIMAGE; ?>" alt="Room image description">
                         <div class="card-body">
                           <div class="rooms_title"><h2><?php echo $result->ROOM ;?> <?php echo $result->ACCOMODATION ;?></h2></div>
                           <div class="rooms_text">
@@ -201,7 +201,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                           <div class="rooms_list">
                             <ul>
                               <li class="d-flex flex-row align-items-center justify-content-start">
-                                <img src="images/check.png" alt="">
+                                <img src="images/check.png" alt="" />
                                 <span>Number of Person - <?php echo $result->NUMPERSON ;?></span>
                               </li> 
                               <li class="d-flex flex-row align-items-center justify-content-start">

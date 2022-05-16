@@ -73,10 +73,8 @@ if (isset($_SESSION['activity'])){
         <ul class="d-flex flex-row align-items-center justify-content-start">
   
 
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/naytimeni"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/watch?v=rj3ZI53fuxc"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         </ul>
       </div>
 
@@ -93,7 +91,7 @@ if (isset($_SESSION['activity'])){
         </div> -->
 
         <!-- Header Link -->
-        <div class="header_link"><a href="#">Book Your Room Now</a></div>
+        
 
         <!-- Hamburger Button -->
         <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -169,9 +167,9 @@ if (isset($_SESSION['activity'])){
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center justify-content-center">
-      <div class="home_title"><h1>Book Your Stay</h1></div>
-      <div class="home_text text-center">Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor, sit amet elementum lorem. Ut cursus tempor turpis.</div>
-      <div class="button home_button"><a href="#">book now</a></div>
+      <div class="home_title"><h1>โรงแรมสมุยเรือนรักษ์</h1></div>
+      <div class="home_title"><h1>Samui Ruan Ruk Hotel</h1></div>
+      <div class="home_text" style="background:orange;border-radius:15px"><p style="color: white;">ยินดีต้อบรับค่ะ</p></div>
     </div>
   </div>
 
@@ -221,10 +219,11 @@ if (isset($_SESSION['activity'])){
       
     </div>
   </div>
-<div class="rooms" style="background:#FFFFFF;" >
+<div class="rooms" style="background:#FFFFFF;min-height:1000px;padding-bottom:50px;" >
   <div class="container" >
     <?php 
      check_message();
+     
      require_once $content;  
     ?> 
  
@@ -234,9 +233,7 @@ if (isset($_SESSION['activity'])){
  
 
  
-
- 
-  <footer class="footer" style="background:#FFFFFF;">
+  <footer class="footer" style="background:#FFFFFF; padding-top: 100px;opacity:90%;">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/footer.jpg" data-speed="0.8"></div>
     <div class="container">
       <div class="row">

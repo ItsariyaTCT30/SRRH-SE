@@ -1,4 +1,4 @@
-<h1>About Us</h1>
+<h1 style="padding-top:50px ;">About Us</h1>
   <div class="intro">
     <div class="container">
       <div class="row row-eq-height">
@@ -7,15 +7,13 @@
         <div class="col-lg-6">
           <div class="intro_content">
             <div class="section_title">
-              <div>Hello</div>
-              <h1>Amazing Hotel in front of the Sea</h1>
+              <div>Koh Samui</div>
+              <h1>เกาะสมุย ( Koh Samui )</h1>
             </div>
             <div class="intro_text">
-              <p>SRRH Hotel  Koh Samui is a luxury, modern and contemporary Residence, situated in a prime location on the beachfront in Bang Rak, the best places on the island for convenience as well as beauty and hidden with the peaceful natural on the nice beach and sea. Boasting spectacular views across to Koh Phangan island Koh som , Koh Poon. Just a short stroll down the beach to Big Buddha the villas are also in close proximity to the samui international airport is just a short 5 minutes drive away and several boat marinas making transfers trouble-free. Minutes to many of the island’s shopping facilities, hospitals. The picturesque, Fisherman’s Village is also nearby with its boutique shops and gastronomic delights.
-
-
-
-We are always available to assist you with any arrangements or simply make your stay a little more comfortable and villa ideal for those wanting to get away from the stresses of everyday life.</p>
+              <p> เกาะสมุย เป็นเกาะที่มีขนาดใหญ่เป็นอันดับ 2 ของประเทศไทย รองจากเกาะภูเก็ต ตั้งอยู่ในอ่าวไทย ซึ่งอยู่ในจังหวัดสุราษฎร์ธานี ใน พ.ศ. 2561 มีนักท่องเที่ยวเดินทางมาที่นี่ 2.7 ล้านคน
+เกาะสมุย เป็นเกาะที่มีชื่อเสียงโด่งดังไปทั่วโลก ซึ่งนักท่องเที่ยวทั้งชาวไทยและชาวต่างชาติ ก็ต่างขนานนามให้เกาะสมุยว่าเป็น "สวรรค์กลางอ่าวไทย" เนื่องจากเกาะสมุยมีความอุดมสมบูรณ์ไปด้วยทรัพยากรการท่องเที่ยวที่มีความโดดเด่น สวยงาม มีเสน่ห์แตกต่างกันไป ไม่ว่าจะเป็นสถานที่ท่องเที่ยวทางธรรมชาติที่สวยงาม อาทิเช่น น้ำทะเลใสบริสุทธิ์ หาดทรายขาวทอดขนานไปกับทิวต้นมะพร้าวริมชายหาด และนอกจากธรรมชาติชายทะเลแล้ว ยังมีน้ำตกที่มีน้ำใสเย็นเกือบตลอดทั้งปี มีแหล่งท่องเที่ยวที่แสดงถึงศิลปวัฒนธรรมของชาวท้องถิ่น เช่น วัดสำเร็จ วัดละไม วัดพระใหญ่ เจดีย์แหลมสอ ฯลฯ
+ในท้องทะเลรอบเกาะสมุยยังมีแนวปะการังอยู่ทั่วไป มีแหล่งปะการังที่อุดมสมบูรณ์อยู่ทางตอนใต้ของเกาะ ซึ่งเป็นแหล่งดำน้ำตื้นที่มีชื่อเสียงของหมู่เกาะสมุย</p>
             </div>
            <!--  <div class="button intro_button"><a href="#">read more</a></div> -->
           </div>
@@ -24,8 +22,8 @@ We are always available to assist you with any arrangements or simply make your 
         <!-- Intro Image -->
         <div class="col-lg-6">
           <div class="intro_image">
-            <div class="background_image" style="background-image:url(images/intro.jpg)"></div>
-            <img src="images/intro.jpg" alt="">
+            <div class="background_image" ></div>
+            <img src="images/samui.jpg" alt="">
           </div>
         </div>
 
@@ -40,8 +38,8 @@ We are always available to assist you with any arrangements or simply make your 
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>Resort</div>
-            <h1>What we offer</h1>
+            <div>Hotel</div>
+            <h1>รูปวิว</h1>
           </div>
         </div>
       </div>
