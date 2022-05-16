@@ -51,7 +51,7 @@ $code=$_GET['code'];
                 <li class="active"><a><i class="fa fa-file-text-o"></i> ADDRESS : <br/>
                 <?php echo $res->G_ADDRESS; ?> </a></li>
                 <li class="active"><a><i class="fa fa-file-text-o"></i> Slip Payment: <br/>           
-              <img src="../images/payment_slip/<?php echo $res->SLIP ?>" alt="" width="200px">
+              <img src="../../booking/uploads/<?php echo $res->SLIP ?>" alt="" width="200px">
               </a></li>
                 
                 
