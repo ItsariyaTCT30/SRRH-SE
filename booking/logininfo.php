@@ -9,7 +9,6 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
 
  ?> 
  <div style="background-color:#fff;">
-
  
            <h1 style="display: inline-block;">Login</h1>
               <a style="display: inline-block;" href="personalinfo.php" data-title="Register New Guest" data-toggle="lightbox">  Register</a> 
@@ -61,8 +60,9 @@ $count_cart = count($_SESSION['dragonhouse_cart']);
 for ($i=0; $i < $count_cart  ; $i++) {  
 
   $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND ROOMID=" . $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'];
-   $mydb->setQuery($query);
-   $cur = $mydb->loadResultList(); 
+
+  $mydb ->setQuery($query);
+  $cur = $mydb -> loadResultList(); 
     foreach ($cur as $result) { 
 
 
