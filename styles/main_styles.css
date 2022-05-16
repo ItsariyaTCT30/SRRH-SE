@@ -278,11 +278,19 @@ section
 {
 	height: 100%;
 }
+.card{
+	height:800px
+}
+.card:hover{
+	transition: 200ms;
+	border: 3px #ff4000 solid;
+}
 .button
 {
+	border-radius: 15px;
 	width: 186px;
 	height: 65px;
-	background: #ff9000;
+	background: #ffffff;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -291,10 +299,10 @@ section
 	transition: all 200ms ease;
 }
 .button:hover
-{
+{	font-weight: bold;
 	border: solid 0px ;
-	background: #ffffff;
-	color: #ff9000;
+	background: #ff7b00;
+	color: #ffffff;
 }
 .button a
 {
@@ -639,7 +647,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #ff9000;
+	color: #fe1e00;
 }
 
 /*********************************
@@ -720,7 +728,7 @@ section
 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	color: #ffffff;
+	color: #fffffF;
 	font-style: italic;
 	font-size: 72px;
 }
