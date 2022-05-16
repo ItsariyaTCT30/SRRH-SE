@@ -41,6 +41,7 @@ foreach ($cur as $result) {
 <td><?php echo $result->PQTY; ?></td>
 <td>&dollar;<?php echo $result->SPRICE; ?></td>
 <td><?php echo $result->STATUS; ?></td> 
+
  <td >
 	<?php 
 		if($result->STATUS == 'Confirmed'){ ?>
@@ -51,8 +52,7 @@ foreach ($cur as $result) {
 			<a href="controller.php?action=delete&code=<?php echo $result->CONFIRMATIONCODE; ?>" class="btn btn-danger btn-xs"  ><i class="icon-edit">Delete</a>
 			<a href="index.php?view=edit&code=<?php echo $result->CONFIRMATIONCODE; ?>&id=<?php echo $result->GUESTID; ?>" class="btn btn-primary btn-xs"  ><i class="icon-edit">Edit</a>
 		<?php
-		}elseif($result->STATUS == 'Checkedin'){
-	?>
+		}elseif($result->STATUS == 'Checkedin'){?>
 			<a href="index.php?view=view&code=<?php echo $result->CONFIRMATIONCODE; ?>" class="btn btn-primary btn-xs" ><i class="icon-edit">View</a>
 			<a href="controller.php?action=checkout&code=<?php echo $result->CONFIRMATIONCODE; ?>" class="btn btn-danger btn-xs" ><i class="icon-edit">Check out</a>
 			<a href="controller.php?action=delete&code=<?php echo $result->CONFIRMATIONCODE; ?>" class="btn btn-danger btn-xs"  ><i class="icon-edit">Delete</a>

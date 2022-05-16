@@ -45,6 +45,13 @@ $code=$_GET['code'];
                 <span class="pull-right"><?php echo $res->G_LNAME; ?></span></a></li>
                 <li class="active"><a><i class="fa fa-file-text-o"></i> ADDRESS : <br/>
                 <?php echo $res->G_ADDRESS; ?> </a></li>
+                <li class="active"><a><i class="fa fa-file-text-o"></i> Slip Payment: <br/>           
+                <?php echo $res->CONFIRMATIONCODE; ?> </a></li>
+                <li class="active"><a><i class="fa fa-file-text-o"></i> Slip Payment: <br/>           
+                <?php echo $res->TRANSDATE; ?> </a></li>
+                
+        
+               
                
               </ul>
             </div>

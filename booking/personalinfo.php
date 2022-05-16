@@ -27,7 +27,6 @@ if (isset($_POST['submit'])){
 redirect('index.php?view=payment');
 }
 ?>
-
 			 
 					<?php
 					if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
@@ -39,7 +38,6 @@ redirect('index.php?view=payment');
 							unset($_SESSION['ERRMSG_ARR']);
 						}
 					?> 
-					
 
 
 		<form class="form-horizontal" action="personalinfo.php" method="post"  name="personal" >    
@@ -47,11 +45,11 @@ redirect('index.php?view=payment');
 					  <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "name">FIRST NAME:</label>
+			              "name">FIRST NAME :</label>
 
 			              <div class="col-md-12">
 			              	<input name="" type="hidden" value="">
-			                <input name="name" type="text" class="form-control input-sm" id="name" />
+			                <input name="name" type="text" maxlength="50" class="form-control input-sm" id="name" pattern="^[a-zA-Z\s]+$" title="Please enter your correct fist name!"/>
 			              </div>
 			            </div>
 			          </div> 
@@ -59,10 +57,10 @@ redirect('index.php?view=payment');
 			            <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "last">LAST NAME:</label>
+			              "last">LAST NAME :</label>
 
 			              <div class="col-md-12">
-			                <input name="last" type="text" class="form-control input-sm" id="last" />
+			                <input name="last" type="text" maxlength="50" class="form-control input-sm" id="last"  pattern="^[a-zA-Z\s]+$" title="Please enter your correct last name!" />
 			              </div>
 			            </div>
 			          </div>
@@ -72,7 +70,7 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "city">CITY:</label>
+			              "city">CITY :</label>
 
 			              <div class="col-md-12">
 			                <input name="city" type="text" class="form-control input-sm" id="city" />
@@ -93,7 +91,7 @@ redirect('index.php?view=payment');
 			            <div class="form-group  ">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "dbirth">DATE OF BIRTH:</label>
+			              "dbirth">DATE OF BIRTH :</label>
 
 			              <div class="col-md-12 input-group">
 			                 <input type="text" data-date="" data-date-format="yyyy-mm-dd" data-link-field="any" 
@@ -111,10 +109,10 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "phone">PHONE:</label>
+			              "phone">PHONE :</label>
 
 			              <div class="col-md-12">
-			                <input name="phone" type="text" class="form-control input-sm" id="phone" />
+			                <input name="phone" length="10" type="text" class="form-control input-sm" id="phone" pattern="((0)(\d{2}\-?\d{3}\-?\d{4}))" title="Please enter your correct phone" />
 			              </div>
 			            </div>
 			           </div>
@@ -122,10 +120,10 @@ redirect('index.php?view=payment');
 			           <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "nationality">NATIONALITY:</label>
+			              "nationality">NATIONALITY :</label>
 
 			              <div class="col-md-12">
-			                <input name="nationality" type="text" class="form-control input-sm" id="nationality" />
+			                <input name="nationality" type="country" class="form-control input-sm" id="nationality" />
 			              </div>
 			            </div>
 			          </div>
@@ -143,7 +141,7 @@ redirect('index.php?view=payment');
 			              <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "caddress">ADDRESS:</label>
+			              "caddress">ADDRESS :</label>
 
 			              <div class="col-md-12">
 			                <input name="caddress" type="text" class="form-control input-sm" id="caddress" />
@@ -155,17 +153,17 @@ redirect('index.php?view=payment');
 			          <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "cemail">E-MAIL:</label>
+			              "cemail">E-MAIL :</label>
 
 			              <div class="col-md-12">
-			                <input name="cemail" type="email" class="form-control input-sm" id="cemail" />
+			                <input name="cemail" type="email" class="form-control input-sm" id="cemail" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Please enter your correct email!"/>
 			              </div>
 			            </div>
 			          </div>
 			            <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "username">USERNAME:</label>
+			              "username">USERNAME :</label>
 
 			              <div class="col-md-12">
 			                <input name="username" type="text" class="form-control input-sm" id="username" />
@@ -176,7 +174,7 @@ redirect('index.php?view=payment');
 			          <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "password">PASSWORD:</label>
+			              "password">PASSWORD :</label>
 
 			              <div class="col-md-12">
 			                <input name="pass" type="password" class="form-control input-sm" id="password" />
@@ -188,10 +186,10 @@ redirect('index.php?view=payment');
 			          <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "zip">ZIP CODE:</label>
+			              "zip">ZIP CODE :</label>
 
-			              <div class="col-md-12">
-			                <input name="zip" type="text" class="form-control input-sm" id="zip" />
+			              <div class="col-md-12"> 
+			                <input name="zip" type="text" length="5" class="form-control input-sm" id="zip" />
 			              </div>
 			            </div>
 			          </div>
@@ -200,7 +198,7 @@ redirect('index.php?view=payment');
 			        <div class="col-md-12"> 
 			        	 <div class="col-md-12">
 			        	 		I <input type="checkbox" name="condition" value="checkbox" />
-					 <small>Agree the <a class="toggle-modal"  onclick="OpenPopupCenter('terms_condition.php','Terms And Codition','600','600')" /> TERMS AND CONDITION </a> of this Hotel</small> 
+					 <small>Agree the <a class="toggle-modal"  onclick="OpenPopupCenter('terms_condition.php','Terms And Codition','600','600')" > TERMS AND CONDITION </a> of this Hotel</small> 
 					 	
 			        	 </div>
 			

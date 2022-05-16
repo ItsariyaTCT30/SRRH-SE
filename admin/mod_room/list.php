@@ -22,7 +22,7 @@
 				  		<th align="left" width="120">Accomodation</th> 
 				  		<th align="left" width="90">Person</th>
 				  		<th align="left"  width="200">Price</th>
-				  		<!-- <th># of Rooms</th> -->
+				  		 <th>Number of Rooms</th> 
 				  	</tr>	
 				  </thead>
 				  <tbody>
@@ -44,7 +44,7 @@
 				  		echo '<td>'. $result->NUMPERSON.'</td>';
 				  		
 				  		echo '<td> &dollar;'. $result->PRICE.'</td>';
-				  		// echo '<td>'.$result->ROOMNUM.' </td>';
+				  		echo '<td>'.$result->ROOMNUM.' </td>';
 				  		echo '</tr>';
 				  	} 
 				  	?>

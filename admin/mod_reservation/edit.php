@@ -65,8 +65,7 @@ $res = $guest->single_guest($_GET['id']);
 
                      <div class="form-group">
                       <div class="col-md-10">
-                        <label class="col-md-4 control-label" for=
-                        "address">ADDRESS:</label>
+                        <label class="col-md-4 control-label" for="address">ADDRESS:</label>
 
                         <div class="col-md-8">
                           <input name="address" type="text" value="<?php echo $res->G_ADDRESS; ?>" class="form-control input-sm" id="address" />
@@ -74,6 +73,10 @@ $res = $guest->single_guest($_GET['id']);
                       </div>
                     </div> 
 
+                    
+
+                    
+                    
      <div><h2>Reservation Details</h2></div>
      <?php
 $code = $_GET['code'];

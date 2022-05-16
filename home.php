@@ -11,7 +11,7 @@
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>
+            
           </div>
         </div>
       </div>
@@ -120,21 +120,21 @@
               <h1>Luxury Double Suite</h1>
             </div>
             <div class="rooms_text">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+              <p>Our Luxury Double Rooms are individually decorated in shades of aqua to reflect the marine environment surrounding the hotel. Each features its own sitting area and bedroom with en-suite bathroom and air-conditioning throughout to ensure the most comfortable stay. Views vary, depending on the location of each room.</p>
             </div>
             <div class="rooms_list">
               <ul>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Morbi tempus malesuada erat sed</span>
+                  <span>Breakfast in the Restaurant</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Tempus malesuada erat sed</span>
+                  <span>King Size Bed, offering a choice of Double or Twin Setup</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Pellentesque vel neque finibus elit</span>
+                  <span>Daily Housekeeping services</span>
                 </li>
               </ul>
             </div>
@@ -161,21 +161,21 @@
               <h1>Luxury Single Room</h1>
             </div>
             <div class="rooms_text">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+              <p>ur single rooms are designed a person visiting for business, leisure, or a bit of both. A single room provides an affordable luxury which make it ideal for the solo traveller, or corporate guests who are in town for the night on a business trip. The space in our rooms provide an added bit of space and a touch of luxury. All of our single rooms have been refurbished to the highest standard to ensure your stay is one of the best with modern fittings throughout.</p>
             </div>
             <div class="rooms_list">
               <ul>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Morbi tempus malesuada erat sed</span>
+                  <span>Breakfast in the Restaurant.</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Tempus malesuada erat sed</span>
+                  <span>Tea and coffee facilities.</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
-                  <span>Pellentesque vel neque finibus elit</span>
+                  <span>Daily Housekeeping services.</span>
                 </li>
               </ul>
             </div>
@@ -230,7 +230,7 @@
         <div class="row discover_row">
           <div class="col-lg-5">
             <div class="discover_highlight">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
+              <p>Breakfast in the Restaurant.</p>
             </div>
             <!-- <div class="button discover_button"><a href="#">discover</a></div> -->
           </div>

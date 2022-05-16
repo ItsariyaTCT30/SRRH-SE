@@ -11,7 +11,11 @@
               <h1>Amazing Hotel in front of the Sea</h1>
             </div>
             <div class="intro_text">
-              <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>
+              <p>SRRH Hotel  Koh Samui is a luxury, modern and contemporary Residence, situated in a prime location on the beachfront in Bang Rak, the best places on the island for convenience as well as beauty and hidden with the peaceful natural on the nice beach and sea. Boasting spectacular views across to Koh Phangan island Koh som , Koh Poon. Just a short stroll down the beach to Big Buddha the villas are also in close proximity to the samui international airport is just a short 5 minutes drive away and several boat marinas making transfers trouble-free. Minutes to many of the island’s shopping facilities, hospitals. The picturesque, Fisherman’s Village is also nearby with its boutique shops and gastronomic delights.
+
+
+
+We are always available to assist you with any arrangements or simply make your stay a little more comfortable and villa ideal for those wanting to get away from the stresses of everyday life.</p>
             </div>
            <!--  <div class="button intro_button"><a href="#">read more</a></div> -->
           </div>
@@ -41,7 +45,7 @@
           </div>
         </div>
       </div>
-      <div class="row offering_row">
+      <div class="row offering_row" style="background-color:#FFFFFF";>
         
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
@@ -50,7 +54,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Outdoor Pool</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -64,7 +68,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Indoor Pool</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -78,7 +82,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Spa Zone</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -92,7 +96,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Sports Area</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                 
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -106,7 +110,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Restaurant</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+                
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -120,7 +124,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Skybar</h3></div>
               <div class="offer_text">
-                <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices.</p>
+              
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -147,10 +151,11 @@
               <h1>Discover <i class="fa fa-strikethrough" aria-hidden="true"></i> Hotel</h1>
             </div>
             <div class="discover_highlight">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
+              <p>Samui Ruan Rak brings to life an oriental heritage village surrounded by lush mature gardens and backed by forested mountains. The Hotel pathways lined with fragrant frangipani lead to 75 tranquil rooms and villas with relaxing gardens and refreshing pools.</p>
             </div>
             <div class="discover_text">
-              <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.</p>
+              <p>
+The classic oriental architecture and feng shui design evokes peace and calm at the atmospheric eateries, seafront infinity pool and serene spa. Situated on the beachfront, this Lamai Beach resort offers activities such as kayaking and snorkelling, and is just 10 minutes drive from the lively Chaweng Beach and must-see rock formation sculptures Hin Ta and Hin Yai.</p>
             </div>
             <div class="button discover_button"><a href="#">discover</a></div>
           </div>

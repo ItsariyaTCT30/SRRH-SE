@@ -50,8 +50,8 @@ if(isset($_POST['savephoto'])){
 					$g->LOCATION = $location;
 					$g->update($_SESSION['GUESTID']); 
 					
-				 	// message("Room Image Upadated successfully!", "success");
-				 	// unset($_SESSION['id']);
+				 	 message("Room Image Upadated successfully!", "success");
+				 	 unset($_SESSION['id']);
 				 	 redirect(WEB_ROOT."index.php");
  			}
  		}

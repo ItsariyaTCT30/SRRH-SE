@@ -83,18 +83,18 @@
             </div>
           </div>
 
-           <!--  <div class="form-group">
+           <  <div class="form-group">
             <div class="col-md-8">
               <label class="col-md-4 control-label" for=
               "ROOMNUM">No. of Rooms:</label>
 
               <div class="col-md-8">
-                <input name="" type="hidden" value=""> -->
+                <input name="" type="hidden" value="">
                  <input class="form-control input-sm" id="ROOMNUM" name="ROOMNUM" placeholder=
-                    "Room #" type="hidden" value="1">
-           <!--    </div>
+                    "Room #" type="show" value="1">
+               </div>
             </div>
-          </div> -->
+          </div> 
            
           <div class="form-group">
             <div class="col-md-8">

@@ -69,6 +69,9 @@ $result = $g->single_guest($_SESSION['GUESTID']);
                     href="<?php echo WEB_ROOT ;  ?>guest/profile.php" data-toggle="lightbox" >Account </a></li> 
                 <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;" 
                 href="<?php echo WEB_ROOT ;  ?>guest/bookinglist.php" data-toggle="lightbox">Bookings </a></li>
+                <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;" 
+                href="<?php echo WEB_ROOT ;  ?>guest/paymentUP.PHP" data-toggle="lightbox">Upload Slip </a></li>
+                
                 
                 <li><a style="color:#000;text-align:left;border-bottom:1px solid #fff;" href="<?php echo WEB_ROOT.'logout.php';  ?>">Logout </a></li> 
             </ul>
