@@ -1,4 +1,5 @@
 <?php
+// error_reporting(0);
 if (!defined('WEB_ROOT')) {
 	exit;
 }
@@ -7,12 +8,13 @@ $code=$_GET['code'];
 
 
  
-		$query="SELECT  `G_FNAME` ,  `G_LNAME` ,  `G_ADDRESS` ,  `TRANSDATE` ,  `CONFIRMATIONCODE` ,  `PQTY` ,  `SPRICE` ,`STATUS`
+		$query="SELECT  `G_FNAME` ,  `G_LNAME` ,  `G_ADDRESS` ,  `TRANSDATE` ,  `CONFIRMATIONCODE` ,  `PQTY` ,  `SPRICE` ,`STATUS`, `SLIP`
 				FROM  `tblpayment` p,  `tblguest` g
 				WHERE p.`GUESTID` = g.`GUESTID` AND `CONFIRMATIONCODE`='".$code."'";
 		$mydb->setQuery($query);
 		$res = $mydb->loadSingleResult();
 
+    // echo $res->SPRICE ."<- path";
 		if($res->STATUS=='Confirmed'){
 			$stats = '<li class="next"><a href="'.WEB_ROOT .'admin/mod_reservation/controller.php?action=checkin&code='.$res->CONFIRMATIONCODE.
 		'">Confirmed &rarr;</a></li>';
@@ -25,8 +27,11 @@ $code=$_GET['code'];
 			$stats = '<li class="next"><a href="'.WEB_ROOT .'admin/mod_reservation/controller.php?action=confirm&code='.$res->CONFIRMATIONCODE.
 		'">Confirm &rarr;</a></li>';
 		}
-
- 
+    
+    
+      
+  
+    
 
 ?>
 <div class="container">
@@ -46,9 +51,9 @@ $code=$_GET['code'];
                 <li class="active"><a><i class="fa fa-file-text-o"></i> ADDRESS : <br/>
                 <?php echo $res->G_ADDRESS; ?> </a></li>
                 <li class="active"><a><i class="fa fa-file-text-o"></i> Slip Payment: <br/>           
-                <?php echo $res->CONFIRMATIONCODE; ?> </a></li>
-                <li class="active"><a><i class="fa fa-file-text-o"></i> Slip Payment: <br/>           
-                <?php echo $res->TRANSDATE; ?> </a></li>
+              <img src="../images/payment_slip/<?php echo $res->SLIP ?>" alt="" width="200px">
+              </a></li>
+                
                 
         
                

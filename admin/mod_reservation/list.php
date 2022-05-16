@@ -22,6 +22,7 @@ date_default_timezone_set("Asia/bangkok");
 <!-- <td width="80"><strong>Nights</strong></td> -->
 <td width="80"><strong>Status</strong></td>
 <td width="100"><strong>Action</strong></td>
+<!-- <td width="100"><strong>Payment Slip</strong></td> -->
 </tr>
 </thead>
 <tbody>
