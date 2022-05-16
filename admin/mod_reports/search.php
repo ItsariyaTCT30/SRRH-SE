@@ -40,7 +40,7 @@
 
 <table  class="table table-bordered" cellspacing="0">
 <thead>
-<tr><td colspan="9" align="center"><h1 class="page-header">Monbela Tourist Inn</h1></td></tr>
+<tr><td colspan="9" align="center"><h1 class="page-header">HelloWorld Tourist Inn</h1></td></tr>
 <tr bgcolor="#999999">
 <td ><strong>Guest</strong></td>
 <td ><strong>Arrival</strong></td>

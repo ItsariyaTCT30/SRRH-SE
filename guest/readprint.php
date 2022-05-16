@@ -8,7 +8,7 @@ require_once("../includes/initialize.php");
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title><?php echo isset($title) ? $title . ' | Monbela Tourist Inn' :  'Monbela Tourist Inn' ; ?></title>
+<title><?php echo isset($title) ? $title . ' | HelloWorld Tourist Inn' :  'HelloWorld Tourist Inn' ; ?></title>
  
     
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT; ?>style.css">  
