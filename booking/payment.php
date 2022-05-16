@@ -163,18 +163,12 @@ $_SESSION['GUESTID'] =   $lastguest;
 
  
  
-<<<<<<< HEAD
+
  <div id="accom-title"  > 
    
 <h4 class="text-right">คุณมีเวลา3ชั่วโมงในการจ่ายก่อนก่อนระบบจะทำการยกเลิก Order</h4>
     <div  class="pagetitle d-flex justify-content-between">   
-            <h1 >Billing Details 
-=======
- <div id="accom-title" style="padding-top: 50px;padding-bottom: 10px;" > 
-    <div  class="pagetitle">   
-            <h1 style="color:orange;" > Billing Details 
->>>>>>> 3fe1bb503c3403a710dab9b78472620c0a5ff853
-                 
+            <h1 >Billing Details          
             </h1> 
             <?php 
 
