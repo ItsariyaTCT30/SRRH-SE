@@ -303,8 +303,8 @@ if (isset($_SESSION['activity'])){
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button class="close" data-dismiss="modal" type=
-                  "button">×</button>
+                  <button style="margin-right:10px ;" class="close" data-dismiss="modal" type=
+                  "button"> × </button>
 
                   <h4 class="modal-title" id="myModalLabel">Choose Image.</h4>
                 </div>

@@ -95,7 +95,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button class="close" data-dismiss="modal" type="button">×</button>
+        <button style="margin-right:10px ;" class="close" data-dismiss="modal" type="button"> × </button>
       </div
 
       <form action="" method="post">
@@ -113,7 +113,7 @@
                   <input name="U_PASS" id="U_PASS" placeholder="Password" type="password" class="form-control input ">
                 </div>
               </div>
-              <a style="display: inline-block;" href="personalinfo.php" data-title="Register New Guest" data-toggle="lightbox"> Register</a>
+              <a style="display: inline-block;" href="personalinfo.php" data-title=" Register New Guest" data-toggle="lightbox"> Register</a>
             </div>
           </div>
         </div>
