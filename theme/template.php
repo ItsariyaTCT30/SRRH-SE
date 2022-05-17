@@ -32,7 +32,7 @@ $_SESSION['to']  = $_POST['to'];
 
  <link href="<?php echo WEB_ROOT; ?>styles/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
  <link href="<?php echo WEB_ROOT; ?>styles/datepicker.css" rel="stylesheet" media="screen">
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 <?php
 if (isset($_SESSION['dragonhouse_cart'])){
   if (count($_SESSION['dragonhouse_cart'])>0) {
@@ -47,8 +47,10 @@ if (isset($_SESSION['activity'])){
  
 } 
  ?>
+ 
 </head>
 <body>
+  
  <?php include $small_nav; ?>  
  <br/>
 <div class="super_container">
