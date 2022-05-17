@@ -245,7 +245,7 @@ if (isset($_SESSION['activity'])){
                 <div class="footer_info d-flex flex-column align-items-center justify-content-start">
                   <div class="text-center">
                     <div style="color:darkblue;">Address:</div>
-                    <div style="color:darkblue;">Main Str, no 23, Thailand</div>
+                    <div style="color:darkblue;">Surat Thani , Koh Samui</div>
                   </div>
                 </div>
               </div>
@@ -253,7 +253,7 @@ if (isset($_SESSION['activity'])){
                 <div class="footer_info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
                   <div class="text-center">
                     <div style="color:darkblue; ">Mail :</div>
-                    <div style="color:darkblue;">SRRH.Hotel@Hotmail.com</div>
+                    <div style="color:darkblue;">SRRH.Hotel@hotmail.com</div>
                   </div>
                 </div>
               </div>

@@ -46,9 +46,9 @@
       <div class="row offering_row" style="background-color:#FFFFFF";>
         
         <!-- Offer Item -->
-        <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6" style="margin-bottom:50px;">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_1.jpg" alt=""></div>
+            <div class="offer_image"><img src="images/offer_1.jpg" style="width:400px;height:300;" alt=""></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Outdoor Pool</h3></div>
               <div class="offer_text">
@@ -60,9 +60,9 @@
         </div>
 
         <!-- Offer Item -->
-        <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6" style="margin-bottom:50px;">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_2.jpg" alt=""></div>
+            <div class="offer_image"><img src="images/offer_2.jpg" style="width:400px;height:300;" alt=""></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Indoor Pool</h3></div>
               <div class="offer_text">
@@ -74,9 +74,9 @@
         </div>
 
         <!-- Offer Item -->
-        <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6" style="margin-bottom:50px;">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_3.jpg" alt=""></div>
+            <div class="offer_image"><img src="images/offer_3.jpg" style="width:400px;height:300;" alt=""></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Spa Zone</h3></div>
               <div class="offer_text">
@@ -88,9 +88,9 @@
         </div>
 
         <!-- Offer Item -->
-        <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6" style="margin-bottom:50px;">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_4.jpg" alt=""></div>
+            <div class="offer_image"><img src="images/offer_5.jpg" style="width:400px;height:300;" alt=""></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Sports Area</h3></div>
               <div class="offer_text">
@@ -102,9 +102,9 @@
         </div>
 
         <!-- Offer Item -->
-        <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6" style="margin-bottom:50px;">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_5.jpg" alt=""></div>
+            <div class="offer_image"><img src="images/offer_4.jpg" style="width:400px;height:300;" alt=""></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Restaurant</h3></div>
               <div class="offer_text">
@@ -116,11 +116,11 @@
         </div>
 
         <!-- Offer Item -->
-        <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6" style="margin-bottom:50px;">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_6.jpg" alt=""></div>
+            <div class="offer_image"><img src="images/offer_6.jpg" style="width:400px;height:300;" alt=""></div>
             <div class="offer_content text-center">
-              <div class="offer_title"><h3>Skybar</h3></div>
+              <div class="offer_title"><h3>Beach bar</h3></div>
               <div class="offer_text">
               
               </div>
