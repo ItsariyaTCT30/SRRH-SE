@@ -174,7 +174,7 @@ $_SESSION['GUESTID'] =   $lastguest;
 
 if (!isset($_SESSION['timeend'])){ 
     unset($_SESSION['timeend']);
-    $endtime = time() + 120;  // สำหรับปรับเวลา
+    $endtime = time() + 10;  // สำหรับปรับเวลา
     $_SESSION['timeend'] = $endtime; 
 } 
 
