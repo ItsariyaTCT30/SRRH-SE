@@ -95,17 +95,17 @@
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/fam_room1.jpg)"></div>
             </div>
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/fam_room2.jpg)"></div>
             </div>
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/fam_room3.jpg)"></div>
             </div>
 
           </div>
@@ -165,12 +165,12 @@
 
       <!-- Rooms Content -->
       <div class="col-xl-6">
-        <div class="rooms_left_content" >
+        <div class="rooms_left_content">
           <div class="section_title">
             <div>Rooms</div>
             <h1>Suite Room</h1>
           </div>
-          <div class="rooms_text" >
+          <div class="rooms_text">
             <p>
               <img src="./images/icon/wifi-signal-white.png" style="height:15px ;" />&nbsp;&nbsp;Free Wifi <br />
               <img src="./images/icon/bath-white.png" style="height:15px ;" />&nbsp;&nbsp;ฝักบัว&nbsp;&nbsp;Shower <br />
@@ -211,19 +211,22 @@
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/suite_room1.jpg)"></div>
             </div>
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/suite_room2.jpg)"></div>
             </div>
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/suite_room3.jpg)"></div>
             </div>
-
+            <!-- Slide -->
+            <div class="slide">
+              <div class="background_image" style="background-image:url(images/suite_room4.jpg)"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -245,17 +248,17 @@
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/stand_room1.jpg)"></div>
             </div>
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/stand_room2.jpg)"></div>
             </div>
 
             <!-- Slide -->
             <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+              <div class="background_image" style="background-image:url(images/stand_room3.jpg)"></div>
             </div>
 
           </div>
@@ -323,7 +326,7 @@
           <div class="rooms_text">
             <p>
               <img src="./images/icon/wifi-signal-white.png" style="height:15px ;" />&nbsp;&nbsp;Free Wifi <br />
-              <img src="./images/icon/bath-white.png" style="height:15px ;" />&nbsp;&nbsp;ฝักบัว&nbsp;&nbsp;Shower <br />
+              <img src="./images/icon/shower-white.png" style="height:15px ;" />&nbsp;&nbsp;ฝักบัว&nbsp;&nbsp;Shower <br />
               <img src="./images/icon/user-white.png" style="height:15px ;" />&nbsp;&nbsp;4-6 person<br />
               <img src="./images/icon/balcony-white.png" style="height:15px ;" />&nbsp;&nbsp;ระเบียง&nbsp;&nbsp;Balcony<br />
               <img src="./images/icon/no-smoking-white.png" style="height:15px ;" />&nbsp;&nbsp;ห้ามสูบบุหรี่&nbsp;&nbsp;No smoking<br />
@@ -359,21 +362,37 @@
         <div class="rooms_slider_container">
           <div class="owl-carousel owl-theme rooms_slider">
 
-            <!-- Slide -->
-            <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+           <!-- Slide -->
+           <div class="slide">
+              <div class="background_image" style="background-image:url(images/deluxed_room1.jpg)"></div>
             </div>
 
-            <!-- Slide -->
-            <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+             <!-- Slide -->
+             <div class="slide">
+              <div class="background_image" style="background-image:url(images/deluxed_room2.jpg)"></div>
             </div>
 
-            <!-- Slide -->
-            <div class="slide">
-              <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+             <!-- Slide -->
+             <div class="slide">
+              <div class="background_image" style="background-image:url(images/deluxed_room3.jpg)"></div>
             </div>
 
+             <!-- Slide -->
+             <div class="slide">
+              <div class="background_image" style="background-image:url(images/deluxed_room4.jpg)"></div>
+            </div>
+
+             <!-- Slide -->
+             <div class="slide">
+              <div class="background_image" style="background-image:url(images/deluxed_room5.jpg)"></div>
+            </div>
+
+             <!-- Slide -->
+             <div class="slide">
+              <div class="background_image" style="background-image:url(images/deluxed_room6.jpg)"></div>
+            </div>
+
+            
           </div>
         </div>
       </div>
