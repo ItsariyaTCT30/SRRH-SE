@@ -164,17 +164,17 @@ $_SESSION['GUESTID'] =   $lastguest;
  
  
 
- <div id="accom-title"  > 
+ <div id="accom-title"  style="padding-top:50px ;"> 
    
 <h4 class="text-right">คุณมีเวลา3ชั่วโมงในการจ่ายก่อนก่อนระบบจะทำการยกเลิก Order</h4>
-    <div  class="pagetitle d-flex justify-content-between">   
+    <div type="hidden"  class="pagetitle d-flex justify-content-between">   
             <h1 >Billing Details          
             </h1> 
             <?php 
 
 if (!isset($_SESSION['timeend'])){ 
     unset($_SESSION['timeend']);
-    $endtime = time() + 10800;  // สำหรับปรับเวลา
+    $endtime = time() + 120;  // สำหรับปรับเวลา
     $_SESSION['timeend'] = $endtime; 
 } 
 
@@ -186,7 +186,7 @@ if($EndTime <= 0) {
 } 
 
 ?> 
-<h1 id="timer" style="color:red;" class="text-right"><?php echo $EndTime ?></h1> 
+<input id="timer" type="hidden" style="color:red;" class="text-right" value="<?php echo $EndTime ?>" />
         <!-- Display the countdown timer in an element -->
         </div> 
   </div>
@@ -321,13 +321,14 @@ for ($i=0; $i < $count_cart  ; $i++) {
     <div class="right"> 
       <h3 style="text-align: right;">Total: &dollar; <?php echo $_SESSION['pay'] ;?></h3>
     </div>
-    <input type="file" name="image" id=""  required>
+    <input class="btn" type="file" name="image" id=""  required multiple >
+    
     <br>
     <div class="">
-        
        <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
     </div>
   </div>   
+  <img  style="width:300px; margin-left:40%;" src="./uploads/payment.jpg" alt="payment" />
 </form>
 
  
