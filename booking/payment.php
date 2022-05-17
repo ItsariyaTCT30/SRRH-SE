@@ -321,7 +321,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
     <div class="right"> 
       <h3 style="text-align: right;">Total: &dollar; <?php echo $_SESSION['pay'] ;?></h3>
     </div>
-    <input class="btn" type="file" name="image" id=""  required multiple >
+    <input class="btn" type="file" name="image" id=""  required >
     
     <br>
     <div class="">
