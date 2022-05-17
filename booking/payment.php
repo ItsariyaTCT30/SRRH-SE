@@ -208,13 +208,9 @@ if(pastTime < 1) {
         setInterval(mycountdown,1000); 
     }
 </script>
-
-            <!-- <h1 class="text-right" id=demo>Times</h1>        -->
-             <!-- <input type="hidden" id="date" value="
-             
-             "> -->
+            <!-- <h1 class="text-right" id=demo>Times</h1> -->
+             <!-- <input type="hidden" id="date" value=""> -->
     
- 
 <div id="bread" >
    <ol style="background-color:orange;" class="breadcrumb">
       <li><a style="color:white;" href="<?php echo WEB_ROOT ;?>index.php">&nbsp;&nbsp; Home  \</a> </li>

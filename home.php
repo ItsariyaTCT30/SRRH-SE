@@ -174,7 +174,7 @@
             <p>
               <img src="./images/icon/wifi-signal-white.png" style="height:15px ;" />&nbsp;&nbsp;Free Wifi <br />
               <img src="./images/icon/bath-white.png" style="height:15px ;" />&nbsp;&nbsp;ฝักบัว&nbsp;&nbsp;Shower <br />
-              <img src="./images/icon/user-white.png" style="height:15px ;" />&nbsp;&nbsp;4-6 person<br />
+              <img src="./images/icon/user-white.png" style="height:15px ;" />&nbsp;&nbsp;1-2 person<br />
               <img src="./images/icon/balcony-white.png" style="height:15px ;" />&nbsp;&nbsp;ระเบียง&nbsp;&nbsp;Balcony<br />
               <img src="./images/icon/no-smoking-white.png" style="height:15px ;" />&nbsp;&nbsp;ห้ามสูบบุหรี่&nbsp;&nbsp;No smoking<br />
               <img src="./images/icon/view-white.png" style="height:15px ;" />&nbsp;&nbsp;วิว: ภูเขา , ทะเล &nbsp;&nbsp;Mountain View , Sea View<br />
@@ -276,7 +276,7 @@
             <p>
               <img src="./images/icon/wifi-signal.png" style="height:15px ;" />&nbsp;&nbsp;Free Wifi <br />
               <img src="./images/icon/shower.png" style="height:15px ;" />&nbsp;&nbsp;ฝักบัว&nbsp;&nbsp;Shower <br />
-              <img src="./images/icon/user.png" style="height:15px ;" />&nbsp;&nbsp;4-6 person<br />
+              <img src="./images/icon/user.png" style="height:15px ;" />&nbsp;&nbsp;1-2 person<br />
               <img src="./images/icon/balcony.png" style="height:15px ;" />&nbsp;&nbsp;ระเบียง&nbsp;&nbsp;Balcony<br />
               <img src="./images/icon/no-smoking.png" style="height:15px ;" />&nbsp;&nbsp;ห้ามสูบบุหรี่&nbsp;&nbsp;No smoking<br />
               <img src="./images/icon/view.png" style="height:15px ;" />&nbsp;&nbsp;วิว: ภูเขา , ทะเล &nbsp;&nbsp;Mountain View , Sea View<br />
@@ -327,7 +327,7 @@
             <p>
               <img src="./images/icon/wifi-signal-white.png" style="height:15px ;" />&nbsp;&nbsp;Free Wifi <br />
               <img src="./images/icon/shower-white.png" style="height:15px ;" />&nbsp;&nbsp;ฝักบัว&nbsp;&nbsp;Shower <br />
-              <img src="./images/icon/user-white.png" style="height:15px ;" />&nbsp;&nbsp;4-6 person<br />
+              <img src="./images/icon/user-white.png" style="height:15px ;" />&nbsp;&nbsp;1-2 person<br />
               <img src="./images/icon/balcony-white.png" style="height:15px ;" />&nbsp;&nbsp;ระเบียง&nbsp;&nbsp;Balcony<br />
               <img src="./images/icon/no-smoking-white.png" style="height:15px ;" />&nbsp;&nbsp;ห้ามสูบบุหรี่&nbsp;&nbsp;No smoking<br />
               <img src="./images/icon/view-white.png" style="height:15px ;" />&nbsp;&nbsp;วิว: ภูเขา , ทะเล &nbsp;&nbsp;Mountain View , Sea View<br />
@@ -413,20 +413,22 @@
         <div class="col-lg-5">
           <div class="section_title">
             <div>Hotel</div>
-            <h1>Discover SRRH Hotel</h1>
+            <h1>โรงแรมสมุยเรือนรักษ์</h1>
           </div>
         </div>
       </div>
       <div class="row discover_row">
         <div class="col-lg-5">
           <div class="discover_highlight">
-            <p>Breakfast in the Restaurant.</p>
+            <p>Discover SRRH Hotel</p>
           </div>
           <!-- <div class="button discover_button"><a href="#">discover</a></div> -->
         </div>
         <div class="col-lg-7">
           <div class="discover_text">
-            <p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.</p>
+            <p>ที่พักนี้อยู่ห่างจากชายหาด/ริมน้ำโดยเดิน 1 นาที สมุยเรือนรักษ์ Samui Ruan Ruk ตั้งอยู่ในย่านหาดเฉวง ให้บริการที่พักริมชายหาดซึ่งอยู่ห่างจากหาดเฉวง 200 ม. และมีสิ่งอำนวยความสะดวกที่หลากหลาย เช่น สระว่ายน้ำกลางแจ้ง เลานจ์ส่วนกลาง และสวน ที่พักนี้มีห้องสำหรับครอบครัว นอกจากนี้ยังมีลานระเบียงสำหรับผู้เข้าพักอีกด้วย ที่พักมีแผนกต้อนรับตลอด 24 ชั่วโมง บริการรถรับส่ง รูมเซอร์วิส และอินเทอร์เน็ตไร้สาย (WiFi) ฟรีทั่วบริเวณที่พัก
+โรงแรมให้บริการห้องพักปรับอากาศพร้อมตู้เสื้อผ้า ตู้เซฟ ทีวี และห้องน้ำส่วนตัวพร้อมบิเดต์ ห้องพักที่ สมุยเรือนรักษ์ Samui Ruan Ruk มีชุดเครื่องนอน และผ้าเช็ดตัว
+ที่พักมีบริการอาหารเช้าแบบคอนติเนนตัลหรือแบบอาหารจานเดียว</p>
           </div>
         </div>
       </div>
