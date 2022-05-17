@@ -163,13 +163,57 @@ $_SESSION['GUESTID'] =   $lastguest;
 
  
  
- <div id="accom-title" style="padding-top: 50px;padding-bottom: 10px;" > 
-    <div  class="pagetitle">   
-            <h1 style="color:orange;" > Billing Details 
-                 
+
+ <div id="accom-title"  > 
+   
+<h4 class="text-right">คุณมีเวลา3ชั่วโมงในการจ่ายก่อนก่อนระบบจะทำการยกเลิก Order</h4>
+    <div  class="pagetitle d-flex justify-content-between">   
+            <h1 >Billing Details          
             </h1> 
+            <?php 
+
+if (!isset($_SESSION['timeend'])){ 
+    unset($_SESSION['timeend']);
+    $endtime = time() + 10800;  // สำหรับปรับเวลา
+    $_SESSION['timeend'] = $endtime; 
+} 
+
+($_SESSION['timeend'] - time()) < 0 ? $EndTime = 0 :  $EndTime = $_SESSION['timeend'] - time();
+
+if($EndTime <= 0) { 
+    unset($_SESSION['timeend']);
+//session_destroy();    
+} 
+
+?> 
+<h1 id="timer" style="color:red;" class="text-right"><?php echo $EndTime ?></h1> 
+        <!-- Display the countdown timer in an element -->
         </div> 
   </div>
+<script type="text/javascript"> 
+var pastTime = <?php echo $EndTime;?>; 
+
+function mycountdown(){ 
+      if(pastTime > 0) { 
+            pastTime -= 1; 
+            document.getElementById('timer').innerHTML = pastTime; 
+      } 
+if(pastTime < 1) { 
+
+
+            window.location = "clear_cart.php" 
+      } 
+} 
+    if(pastTime >0){
+        setInterval(mycountdown,1000); 
+    }
+</script>
+
+            <!-- <h1 class="text-right" id=demo>Times</h1>        -->
+             <!-- <input type="hidden" id="date" value="
+             
+             "> -->
+    
  
 <div id="bread" >
    <ol style="background-color:orange;" class="breadcrumb">
@@ -275,7 +319,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
  
 
     <div class="right"> 
-      <h3 style="text-align: right;">Total: &dollar; <?php echo   $_SESSION['pay'] ;?></h3>
+      <h3 style="text-align: right;">Total: &dollar; <?php echo $_SESSION['pay'] ;?></h3>
     </div>
     <input type="file" name="image" id=""  required>
     <br>

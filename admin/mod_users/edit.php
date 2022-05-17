@@ -11,7 +11,7 @@ $res = $user->single_user($_SESSION['id']);
 <form class="form-horizontal well span6" action="controller.php?action=edit" method="POST">
 
 	<fieldset>
-		<legend>New User Account</legend>
+		<legend>Staff Account</legend>
 											
           
           <div class="form-group">
